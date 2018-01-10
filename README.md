@@ -1,1 +1,1 @@
-# Automated hydroponics cabinet using a Raspberry Pi
+#Automated hydroponics cabinet using a Raspberry Pi

@@ -1,3 +1,4 @@
+# Turn all of the relays on
 sudo /home/pi/scripts/relay1On.sh
 sudo /home/pi/scripts/relay2On.sh
 sudo /home/pi/scripts/relay3On.sh

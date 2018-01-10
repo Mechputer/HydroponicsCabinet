@@ -1,3 +1,4 @@
+# Turn all of the relays off
 sudo /home/pi/scripts/relay1Off.sh
 sudo /home/pi/scripts/relay2Off.sh
 sudo /home/pi/scripts/relay3Off.sh
