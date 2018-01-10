@@ -1,15 +1,15 @@
 #!/bin/bash
-/home/pi/scripts/getTemp.sh
-/home/pi/scripts/tempHumid
+/home/pi/HydroponicsCabinet/getTemp.sh
+/home/pi/HydroponicsCabinet/tempHumid
 printf "Pi temp:\n"
 /opt/vc/bin/vcgencmd measure_temp
 printf "Pi temp (different...?):\n"
 cat /sys/class/thermal/thermal_zone0/temp
 printf "Water temp (x1000):\n"
-tail /home/pi/scripts/temp.log
+tail /home/pi/HydroponicsCabinet/temp.log
 printf "Cabinet temp:\n"
-tail /home/pi/scripts/cabTemp.txt
+tail /home/pi/HydroponicsCabinet/cabTemp.txt
 printf "\n"
 printf "Cabinet humidity:\n"
-tail /home/pi/scripts/cabHumid.txt
+tail /home/pi/HydroponicsCabinet/cabHumid.txt
 printf "\n"
