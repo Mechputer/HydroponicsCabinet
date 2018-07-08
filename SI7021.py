@@ -42,9 +42,9 @@ cTemp = ((data0 * 256 + data1) * 175.72 / 65536.0) - 46.85
 fTemp = cTemp * 1.8 + 32
 
 # Output data to screen
-fp = open("/home/pi/HydroponicsCabinet/cabHumid.txt", "w")
+fp = open("/home/pi/HydroponicsCabinet/cabinetHumidity.txt", "w")
 fp.write("%.2f" %humidity)
 fp.close
-fp = open("/home/pi/HydroponicsCabinet/cabTemp.txt", "w")
+fp = open("/home/pi/HydroponicsCabinet/cabinetTemperature.txt", "w")
 fp.write("%.2f" %cTemp)
 fp.close
