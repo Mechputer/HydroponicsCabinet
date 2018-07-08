@@ -1,6 +1,6 @@
 #!/bin/bash
 /home/pi/HydroponicsCabinet/getTemp.sh
-/home/pi/HydroponicsCabinet/tempHumid
+python /home/pi/HydroponicsCabinet/SI7021.py
 printf "Pi temp:\n"
 /opt/vc/bin/vcgencmd measure_temp
 printf "Pi temp (different...?):\n"
